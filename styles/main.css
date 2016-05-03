@@ -32,10 +32,16 @@
   text-align: center;
 }
 
-.section-heading {
-}
-
 #contact {
   min-height: 80vh;
   background-color: rgb(5, 95, 153);
+  color: white;
+}
+
+.survey {
+  display: none;
+}
+
+.thanks {
+  display: none;
 }

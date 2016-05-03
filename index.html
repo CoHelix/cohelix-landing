@@ -52,11 +52,29 @@
     <div class="section" id="contact">
       <div class="container">
         <h3 class="section-heading">Sign Up</h3>
-        <div class="row">
-          <input type="email" name="email" placeholder="Enter your email..." id="email">
-          <a class="button button-primary" href="#">Sign Up</a>
+        <div class="row call-to-action">
+          <input type="email" name="email" placeholder="Enter your email..." id="email" required>
+          <button class="button button-primary signup-button">Sign Up</button>
+        </div>
+
+        <div class="row survey">
+          <h5>Thanks! You're awesome. </h5>
+          <h5>Could you please answer a couple of questions: </h5>
+          <ol>
+            <li>How many things? </li>
+            <li>Want some more things? </li>
+            <li>And even more things? </li>
+          </ol>
+          <button class="button button-primary survey-button">Submit</button>
+        </div>
+
+        <div class="row thanks">
+          <h5>Thanks! You're super awesome. </h5>
         </div>
       </div>
     </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
