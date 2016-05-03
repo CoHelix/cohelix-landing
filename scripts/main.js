@@ -19,8 +19,8 @@ $(document).ready(function () {
         message: 'signup'
       });
 
-      $('.call-to-action').hide();
-      $('.survey').show();
+      $('.email-form').hide();
+      $('.survey-form').show();
     } else {
       // TODO - Add email validation messaging
     }
@@ -39,7 +39,7 @@ $(document).ready(function () {
       message: 'survey'
     });
 
-    $('.survey').hide();
+    $('.survey-form').hide();
     $('.thanks').show();
   });
 
