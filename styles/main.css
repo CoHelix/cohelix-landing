@@ -1,0 +1,41 @@
+.hero {
+  min-height: 80vh;
+  background: url('/images/cafe.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.hero-primary-heading {
+  margin: 7rem 0 10rem 0;
+  font-weight: 600;
+}
+
+.hero-secondary-heading {
+  margin: 10rem 0 5rem 0;
+}
+
+.call-to-action #email {
+  margin: 0 1rem 0 0;
+  min-width: 10rem;
+  color: black;
+  font-size: 1.6rem;
+}
+
+.button.button-primary {
+  border-color: #4ECC1D;
+  background-color: #4ECC1D;
+  font-size: 1.3rem;
+}
+
+.section {
+  padding: 8rem 0 7rem 0;
+  text-align: center;
+}
+
+.section-heading {
+}
+
+#contact {
+  min-height: 80vh;
+  background-color: rgb(5, 95, 153);
+}
