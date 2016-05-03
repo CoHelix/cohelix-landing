@@ -31,6 +31,10 @@
   text-align: center;
 }
 
+.section-heading {
+ margin-bottom: 5rem;
+}
+
 #contact {
   min-height: 80vh;
   background-color: rgb(5, 95, 153);
@@ -51,4 +55,12 @@
 
 .logo h1 {
   font-weight: 600;
+}
+
+.product-image {
+  width: 400px;
+}
+
+.feature-icon {
+  width: 100px;
 }
