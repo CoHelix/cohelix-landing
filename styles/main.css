@@ -13,7 +13,8 @@ h2 {
 }
 
 .hero-primary-heading {
-  margin: 12rem 0 2rem 0;
+  margin: 19rem 0 4rem 0;
+  font-size: 3rem;
 }
 
 .hero-secondary-heading {
@@ -68,12 +69,17 @@ h2 {
   display: none;
 }
 
+.logo {
+  margin: -1rem 0 0 0;
+}
+
 .logo img {
   width: 70px;
 }
 
 .logo h1 {
   font-weight: 600;
+  font-size: 3.5rem;
 }
 
 .product-image {
