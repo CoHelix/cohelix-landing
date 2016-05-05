@@ -1,3 +1,8 @@
+h2 {
+//  font-weight: 600;
+  font-size: 3.2rem;
+}
+
 .hero {
   padding: 8vh 0 0 0;
   min-height: 70vh;
@@ -71,7 +76,12 @@
 }
 
 .feature {
-
+  background-color: #c5dce3; 
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 3.2rem;
+  text-align: left;
+  min-height: 400px;
 }
 
 .feature-icon {
