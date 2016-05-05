@@ -1,10 +1,10 @@
 .hero {
   padding: 8vh 0 0 0;
-  text-align: center;
   min-height: 70vh;
   background: url('/images/cafe.jpg') no-repeat center center;
   background-size: cover;
   color: white;
+  text-align: center;
 }
 
 .hero-primary-heading {
@@ -16,8 +16,8 @@
 }
 
 .email-form {
-  width: 40%;
   margin: 0 auto;
+  width: 40%;
   color: black;
   font-size: 1.6rem;
 }
@@ -68,6 +68,10 @@
 
 .product-image {
   width: 400px;
+}
+
+.feature {
+
 }
 
 .feature-icon {
