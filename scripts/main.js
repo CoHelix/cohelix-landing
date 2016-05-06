@@ -10,6 +10,19 @@ function postData(data) {
 $(document).ready(function () {
   var email;
 
+  $(window).on('scroll', function (event) { 
+    var scrollDistance = window.pageYOffset;
+    var nav = $('.navbar-fixed');
+    
+    if (scrollDistance > 500) {
+      nav.show();
+    } else {
+      if (nav.css('display') != 'hidden') {
+        nav.hide();
+      }
+    }
+  });
+
   $('.signup-button').on('click', function () {
     if ($('#email')[0].checkValidity()) {
       email = $('#email').serializeArray();
