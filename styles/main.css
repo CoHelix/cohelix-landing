@@ -1,3 +1,7 @@
+body {
+  scroll-behaviour: smooth;
+}
+
 h2 {
   font-weight: 600;
   font-size: 3.2rem;
@@ -5,15 +9,18 @@ h2 {
 
 .hero {
   padding: 8vh 0 0 0;
-  min-height: 70vh;
+  min-height: 100vh;
   background: url('/images/bar2.jpg') no-repeat center center;
   background-size: cover;
   color: white;
   text-align: center;
 }
 
+.call-to-action {
+  margin: 28rem 0 4rem 0;
+}
+
 .hero-primary-heading {
-  margin: 19rem 0 4rem 0;
   font-size: 3rem;
 }
 
@@ -32,10 +39,19 @@ h2 {
   margin: 2rem;
 }
 
+.button {
+  font-size: 1.3rem;
+  color: white;
+  margin: 1rem;
+}
+
+.button:hover {
+  color: white;
+}
+
 .button.button-primary {
   border-color: #4ECC1D;
   background-color: #4ECC1D;
-  font-size: 1.3rem;
 }
 
 .section {
@@ -46,6 +62,11 @@ h2 {
 h2 {
  margin-bottom: 5rem;
  font-weight: 600;
+}
+
+.section-image {
+  height: 250px;  
+  border-radius: 5px;
 }
 
 .section p {
