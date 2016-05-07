@@ -70,6 +70,12 @@ h2 {
   border-radius: 5px;
 }
 
+@media (max-width: 550px) {
+  .section-image {
+    display: none;
+  }  
+} 
+
 .section p {
   color: gray;
 }
