@@ -8,10 +8,12 @@ p {
 }
 
 .left {
+  padding-left: 5rem;
   text-align: left;
 }
 
 .right {
+  padding-right: 5rem;
   text-align: right;
 }
 
