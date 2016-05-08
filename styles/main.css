@@ -1,9 +1,18 @@
 h1, h2, h3, h4, h5 {
   font-family: 'Lato', sans-serif;
+  font-weight: 600;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
 
 .hero {
@@ -63,7 +72,7 @@ p {
 }
 
 .section {
-  margin: 5rem 0 5rem 0;
+  margin: 10rem 0 10rem 0;
   text-align: center;
 }
 
