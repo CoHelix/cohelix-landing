@@ -1,10 +1,9 @@
-body {
-  scroll-behaviour: smooth;
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
 }
 
-h2 {
-  font-weight: 600;
-  font-size: 3.2rem;
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hero {
@@ -22,6 +21,11 @@ h2 {
 
 .hero-primary-heading {
   font-size: 3rem;
+}
+
+.price-box {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .email-form {
