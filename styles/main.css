@@ -17,6 +17,17 @@ p {
   text-align: right;
 }
 
+@media (max-width: 600px) {
+  .left {
+    padding-left: 0;
+    text-align: center;
+  }
+  .right {
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
 .hero {
   padding: 8vh 0 0 0;
   min-height: 100vh;
@@ -87,6 +98,12 @@ h2 {
   height: 20rem;  
   max-width: 100%;
   border-radius: 5px;
+}
+
+@media (max-width: 550px) {
+  .section-image {
+      display: none;
+  }
 }
 
 .section p {
