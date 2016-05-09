@@ -66,6 +66,15 @@ p {
   padding-right: 5rem;
 }
 
+@media (max-width: 800px) {
+  .nav-buttons {
+    display: none;
+  }
+  .navbar-fixed {
+    text-align: center;
+  }
+}
+
 .nav-logo {
   display: inline-block;
   color: white;
