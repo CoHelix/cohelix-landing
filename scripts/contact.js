@@ -1,11 +1,4 @@
-function postData(data) {
-  $.ajax({
-    url: "https://formspree.io/dan@cohelix.co.nz",
-    method: "POST",
-    data: data,
-    dataType: "json"
-  });
-}
+var postData = formspree;
 
 $(document).ready(function () {
 	$('.submit-button').on('click', function () {
