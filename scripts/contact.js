@@ -9,24 +9,12 @@ function postData(data) {
 
 $(document).ready(function () {
 	$('.submit-button').on('click', function () {
-		var email = $('#email');
-		var message = $('#message');
+		if ($('#email')[0].checkValidity()) {
+			var formData = $('.contact-form').serializeArray();
+			postData(formData);
 
-		if (!email) {
-			email[0].value = 'not provided';
+			$('.contact-form').hide();
+			$('.thanks').show();
 		}
-
-		if (!message) {
-			message[0].value = 'not provided';
-		}
-
-		$('.contact-form').hide();
-		$('.thanks').show();
-		console.log(email);
-
-		postData({
-		  email: email[0].value,
-		  message: message[0].value
-		});
 	});
 });
