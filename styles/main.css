@@ -1,10 +1,31 @@
-body {
-  scroll-behaviour: smooth;
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
 }
 
-h2 {
-  font-weight: 600;
-  font-size: 3.2rem;
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.left {
+  padding-left: 5rem;
+  text-align: left;
+}
+
+.right {
+  padding-right: 5rem;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .left {
+    padding-left: 0;
+    text-align: center;
+  }
+  .right {
+    padding-right: 0;
+    text-align: center;
+  }
 }
 
 .hero {
@@ -56,19 +77,28 @@ h2 {
   margin: 0 3rem 0 0;
 }
 
-.email-form {
+.price-box {
+  width: 50%;
   margin: 0 auto;
-  width: 40%;
+}
+
+.email-form {
+  margin: 0 auto 8rem;
   color: black;
   font-size: 1.6rem;
 }
 
+.email-form p {
+  color: white;
+}
+
 .email-form input {
-  margin: 1rem 0 1rem 0;
+  margin: 0.5rem;
+  width: 30rem;
 }
 
 .email-form button {
-  margin: 2rem;
+  margin: 0.5rem;
 }
 
 .button {
@@ -87,7 +117,7 @@ h2 {
 }
 
 .section {
-  margin: 5rem 0 5rem 0;
+  margin: 10rem 0 10rem 0;
   text-align: center;
 }
 
@@ -97,9 +127,15 @@ h2 {
 }
 
 .section-image {
-  height: auto;  
+  height: 20rem;  
   max-width: 100%;
   border-radius: 5px;
+}
+
+@media (max-width: 550px) {
+  .section-image {
+      display: none;
+  }
 }
 
 .section p {
@@ -155,6 +191,6 @@ h2 {
 }
 
 .footer {
-  padding: 4vh 0 4vh 0;
+  padding: 5rem 0 2rem 0;
   text-align: center;
 }
