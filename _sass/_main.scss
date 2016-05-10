@@ -136,8 +136,13 @@ p {
 }
 
 .button.button-primary {
-  border-color: #4ECC1D;
-  background-color: #4ECC1D;
+  border-color: #a1cc39;
+  background-color: #a1cc39;
+}
+
+.button-signup {
+  border-color: #ff0066;
+  background-color: #ff0066;
 }
 
 .section {
@@ -217,4 +222,19 @@ h2 {
 .footer {
   padding: 5rem 0 2rem 0;
   text-align: center;
+}
+
+.signup {
+  padding: 5rem 0 5rem 0;
+  text-align: center;
+  background-color: #a1cc39;
+  color: black;
+}
+
+.signup-call-to-action {
+  margin-top: 1rem;
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
 }
