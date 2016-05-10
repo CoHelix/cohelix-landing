@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5 {
   font-weight: 600;
 }
 
-p {
+p, li {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -145,6 +145,10 @@ p {
   background-color: #ff0066;
 }
 
+.submit-button {
+  margin-left: 0;
+}
+
 .section {
   margin: 10rem 0 10rem 0;
   text-align: center;
@@ -237,4 +241,8 @@ h2 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
   }
+}
+
+.pilot-text {
+  width: 50%;
 }
