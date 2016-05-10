@@ -5,4 +5,4 @@ var formspree = function (data) {
     data: data,
     dataType: "json"
   });
-}
+};
