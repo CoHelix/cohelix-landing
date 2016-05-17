@@ -1,0 +1,33 @@
+.call-to-action {
+  margin: 28rem 0 4rem 0;
+
+  input {
+    margin-right: 0.5rem;  
+  }
+}
+
+.hero {
+  padding: 8vh 0 0 0;
+  min-height: 100vh;
+  background: url('/images/bar2.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero-primary-heading {
+  font-size: 3rem;
+}
+
+.logo {
+  margin: -1rem 0 0 0;
+
+  img {
+  	width: 70px;
+  }
+
+  h1 {
+  	font-weight: 600;
+  	font-size: 3.5rem;
+  }
+}
