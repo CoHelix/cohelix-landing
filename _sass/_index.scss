@@ -1,0 +1,93 @@
+.app {
+  background-color: $light-gray;
+  margin: 0;
+  padding: 5rem 0 5rem 0;
+}
+
+.button-signup {
+  border-color: $cohelix-blue;
+  background-color: $cohelix-blue;
+  margin-top: 2rem;
+
+  &:hover {
+    border-color: $bright-green;
+    background-color: $bright-green;
+  }
+}
+
+.feature {
+  min-height: 400px;
+  padding: 2rem;
+
+  h5 {
+  	font-weight: 600;
+  }
+
+  p {
+  	color: gray;
+  }
+}
+
+.feature-icon {
+  margin: 0 0 4rem 0;
+  width: 100px;
+}
+
+.left {
+  padding-left: 5rem;
+  text-align: left;
+  @media (max-width: 600px) {
+  	padding-left: 0;
+    text-align: center;
+  }
+}
+
+.right {
+  padding-right: 5rem;
+  text-align: right;
+  @media (max-width: 600px) {
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
+.screenshot {
+  max-width: 100%;
+}
+
+.section {
+  margin: 10rem 0 10rem 0;
+  text-align: center;
+
+  p {
+  	color: gray;
+  }
+}
+
+.section-image {
+  height: 20rem;  
+  max-width: 100%;
+  border-radius: 5px;
+
+  @media (max-width: 550px) {
+    display: none;
+  } 
+}
+
+.signup {
+  padding: 5rem 0 5rem 0;
+  text-align: center;
+  background-color: $cohelix-orange;
+  color: black;
+  h5 {
+    font-size: 2.2rem;
+  }
+}
+
+.signup-call-to-action {
+  margin-top: 1rem;
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
